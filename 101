@@ -1,0 +1,9 @@
+Cost Functions - 
+The goal of using a cost function is typically to adjust the inputs (parameters, configurations) to minimize the output (cost/error) for 
+better model performance or accurate representation of data. This doesn’t mean manually adjusting the input parameters. Has to be done algorithmically. 
+
+
+Something about Hierarchical Clustering
+In other words, it's questioning whether, no matter how many clusters you want to divide your data into, 
+there's a method within hierarchical clustering that comes close to the best possible way of dividing them based on some fair measure of quality.
+
