@@ -1,9 +1,15 @@
-Cost Functions - 
+##Cost Functions - 
 The goal of using a cost function is typically to adjust the inputs (parameters, configurations) to minimize the output (cost/error) for 
 better model performance or accurate representation of data. This doesn’t mean manually adjusting the input parameters. Has to be done algorithmically. 
+This means that the 'cost' of how well a dataset is clustered is measured by how spread out the farthest points are within the clusters. 
+If clusters have smaller radii, it indicates that the points are closer to their respective centers,making the clustering more compact and potentially better 
+in terms of this cost function.
 
 
-Something about Hierarchical Clustering
+##Something about Hierarchical Clustering
 In other words, it's questioning whether, no matter how many clusters you want to divide your data into, 
 there's a method within hierarchical clustering that comes close to the best possible way of dividing them based on some fair measure of quality.
 
+##Largest Radius of a Cluster
+Imagine you've divided your data into clusters. Each cluster has its own center, and the radius of a cluster is the distance from that center to the farthest point within 
+that cluster. So, the largest radius among all these clusters gives you the cost of that specific clustering.
